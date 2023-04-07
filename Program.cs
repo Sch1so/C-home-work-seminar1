@@ -13,6 +13,7 @@ else
 
 //Задача 4
 
+/*
 Console.Write("Напишите первое число для сравнения ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Напишите второе число для сравнения ");
@@ -29,3 +30,15 @@ if(max < num3)
     max = num3;
 
 Console.Write("Максимальное число " + max);
+*/
+
+//Задача 6
+/*
+Console.Write("Напишите число ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if(num % 2 == 0)
+    Console.Write(num + " Является четным");
+else
+    Console.Write(num + " Не является четным");
+*/
