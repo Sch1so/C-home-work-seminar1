@@ -33,6 +33,7 @@ Console.Write("Максимальное число " + max);
 */
 
 //Задача 6
+
 /*
 Console.Write("Напишите число ");
 int num = Convert.ToInt32(Console.ReadLine());
@@ -41,4 +42,20 @@ if(num % 2 == 0)
     Console.Write(num + " Является четным");
 else
     Console.Write(num + " Не является четным");
+*/
+
+//Задача 8
+
+/*
+Console.Write("Введите положительное число ");
+int num = Convert.ToInt32(Console.ReadLine());
+int corrent = 1;
+
+while(corrent <= num)
+{
+    if(corrent % 2 == 0)
+        Console.Write(corrent + " ");
+    corrent++;
+}
+Console.Write("Все четные число от 1 до " + num);
 */
